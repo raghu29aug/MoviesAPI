@@ -1,7 +1,10 @@
 # MoviesAPI
 Comcast Freewheel Movies API Assessement
 
-
+Tech Stack:
+IDE: VS2019
+Project: .Net Core 3.1 Web API Using Entity Framework Core.
+	For Testing used NUnit and MOQ frameworks.
 
 Steps:
 1) Create New Project (VS2019) -> ASP.Net Core Web Application -> Web API Template
@@ -9,7 +12,7 @@ Steps:
 3) Install Microsoft.EntityFrameworkCore.SqlServer (UseSQLServer)
 4) Install Microsoft.EntityFrameworkCore.Tools (for DB Migrations and Seeding)
 5) In Package Manager Console, Run below command. This creates Migration files under Migrations folder.
-   Add-Migration InitialMigratioin (This is not required, as have added code to automatically Seed on Running the App)
+   Add-Migration InitialMigratioin (This is not required, as have added code to automatically Seed on Running the App. It uses localdb which is installed with VS2019)
 
 For Tests:
 1) Install Microsoft.NET.Test.Sdk
